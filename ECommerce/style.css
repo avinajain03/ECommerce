@@ -1,0 +1,184 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.d-flex{
+    display: flex;
+}
+.align-items{
+    align-items: center;
+}
+.flex-wrap{
+    flex-wrap:wrap;
+}
+.justify-content{
+    justify-content: space-around;
+}
+.flex-direction{
+    flex-direction: column;
+}
+.navbar{
+    padding:2px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 15px;
+    padding: 7px;
+    font-size: 21px;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+
+.logo3{
+    height: 40px;
+    width: 40px;
+}
+
+
+
+p{
+    color: #555;
+}
+.container1{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+
+/* .products{
+    background-color:#FFF0F5;
+} */
+
+/* .header1{
+    background: radial-gradient(#fff, #605c5c);
+} */
+body {
+    font-family: 'Arial', sans-serif;
+    /* background-color: #911515; */
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #279EFF;
+}
+
+.col1{
+    flex-basis: 50%;
+    min-width: 100px;
+}
+.col1 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.col1 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 100px;
+}
+
+.col1 p{
+    font-size: 20px;
+    /* line-height: 60px; */
+    margin: 25px 100px;
+}
+
+
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+    margin: 25px 100px;
+}
+
+
+
+nav.navbar {
+    background-color:red;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    align-items: flex-start;
+    flex-direction: row;
+    
+}
+
+/* .header
+{
+    background-color: #2874f0;
+
+} */
+
+
+.card {
+    border: none;
+    transition: transform .2s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-img-top {
+    width: 100%;
+    max-height: 250px;
+    object-fit: contain;
+    margin: 10px 0;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.card-footer {
+    background-color: white;
+}
+
+.btn-primary {
+    background-color: #2874f0;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}

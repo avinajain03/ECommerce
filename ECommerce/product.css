@@ -1,0 +1,16 @@
+
+
+.section {
+    font-size: 20px;
+    float: right;
+    text-decoration: none; /* Remove underline */
+}
+
+.section3 {
+    font-size: 20px;
+    padding: 0px 20px;
+    float: right;
+    text-decoration: none; /* Remove underline */
+}
+
+
